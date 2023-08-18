@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-between;
+}
+
+
+
+.header .navbar a{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.header .navbar a:hover{
+    color: rgb(132, 0, 255);
+}
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.heading h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.heading p{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow:hidden ;
+}
+
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-content{
+    flex: 1;
+}
+
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
